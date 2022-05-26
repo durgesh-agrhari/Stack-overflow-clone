@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Stack-overflow-clone/static/css/main.dddc24c2.css",
+    "main.js": "/Stack-overflow-clone/static/js/main.b1e14ae9.js",
+    "static/media/down.jpg": "/Stack-overflow-clone/static/media/down.d4a4d2e37a096ba0f123.jpg",
+    "static/media/search.svg": "/Stack-overflow-clone/static/media/search.cd761af2e6d53d07ac6129e7f885fa95.svg",
+    "index.html": "/Stack-overflow-clone/index.html",
+    "static/media/pen-solid.svg": "/Stack-overflow-clone/static/media/pen-solid.e5590922fd48b47b9bc800113a8ed4d5.svg",
+    "static/media/message-solid.svg": "/Stack-overflow-clone/static/media/message-solid.6bfadd14417e349091378934b5dae592.svg",
+    "main.dddc24c2.css.map": "/Stack-overflow-clone/static/css/main.dddc24c2.css.map",
+    "main.b1e14ae9.js.map": "/Stack-overflow-clone/static/js/main.b1e14ae9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dddc24c2.css",
+    "static/js/main.b1e14ae9.js"
+  ]
+}
