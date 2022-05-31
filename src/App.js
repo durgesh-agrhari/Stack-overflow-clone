@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 //import Avater from './components/Avatar/Avater'
 //import Button from './components/Button/Button'
 import AllRoutes from './AllRoutes'
+import Home from './pages/Home/Home';
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
       <Router>
         <Navbar />
         <AllRoutes />
-        {/* <Button />
-        <Avater /> */}
+        <Home />
       </Router>
     </div>
   );

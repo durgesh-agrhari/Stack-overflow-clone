@@ -21,7 +21,9 @@ const Navbar = () => {
             <Link to='/#' className='nav-item nav-btn' >For Teams</Link>
             <form>
                 <input type="text" placeholder='Search'/>
+                <Link to='/'>
                 <img src={Search} alt="Search" width="18" className='search-icon' />
+                </Link>
             </form>
 
             { User === null?

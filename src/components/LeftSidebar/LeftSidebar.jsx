@@ -3,6 +3,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './LeftSidebar.css'
 //import Globe from '../../assets/globe.png'
+//import Questions from '../HomeMainbar/Questions'
 
 const Leftsidebar = () => {
   return (
@@ -14,7 +15,7 @@ const Leftsidebar = () => {
 
             <div className='side-nav-div'>
                 <div><p>PUBLIC</p></div>
-                <NavLink to='/Questions' className='side-nav-links' activeClassName='active' style={{paddingLeft: "40px"}}>
+                <NavLink exact path to='/' className='side-nav-links' activeClassName='active' style={{paddingLeft: "40px"}}>
                     {/* <img src={Globe} alt='Globe'style={{width: "10px", hight:"10px"}} className='globe' /> */}
                     <p style={{paddingLeft:"10px" ,color: "black"}}>Questions</p>
                 </NavLink>

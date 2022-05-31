@@ -1,5 +1,5 @@
 import React from 'react'
-import QuestionsDetails from './QuestionsDetails'
+//import QuestionsDetails from './QuestionsDetails'
 import {Link } from 'react-router-dom'
 import Avatar from '../../components/Avatar/Avater'
 
