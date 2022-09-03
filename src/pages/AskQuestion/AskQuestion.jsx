@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './AskQuestion.css'
 import { useNavigate } from 'react-router-dom'
 
@@ -30,6 +31,9 @@ const AskQuestion = () => {
           </div>
           <div className='reivew-btn'>
           <input type="button" value='Reivew Your question'/>
+          <Link to='/' className='nav-logo'>
+          <input type="button" value='Back to Home'/>
+          </Link>
           </div>
         </form>
       </div>

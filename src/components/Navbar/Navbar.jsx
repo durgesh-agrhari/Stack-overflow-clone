@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../assets/logo1.png'
 import Search  from '../../assets/search.svg'
 import Avatar from '../Avatar/Avater'
@@ -8,21 +8,23 @@ import './Navbar.css'
 
 const Navbar = () => {
  
-    var User = null
+  var User = null
+
+  // const [isMobile, setISMobile] = useState(false);
 
   return (
     <nav className='main-nav'>
         <div className='navbar'>
-            <Link to='/' className='nav-item nav-logo'>
+            <Link to='/' className='nav-logo'>
                 <img src={logo} alt='logo' width='200px' height='44px'/>
             </Link>
-            <Link to='/#' className='nav-item nav-btn' >About</Link>
+            <Link to='/about' className='nav-item nav-btn' >About</Link>
             <Link to='/#' className='nav-item nav-btn' >Products</Link>
             <Link to='/#' className='nav-item nav-btn' >For Teams</Link>
             <form>
-                <input type="text" placeholder='Search'/>
+                <input type="text" placeholder='Search' className='nav-item '/>
                 <Link to='/'>
-                <img src={Search} alt="Search" width="18" className='search-icon' />
+                <img src={Search} alt="Search" width="18" className='nav-item search-icon' />
                 </Link>
             </form>
 
@@ -35,6 +37,12 @@ const Navbar = () => {
             }
 
         </div>
+{/* 
+        <button className='mobile-menu-icon'>
+          {isMobile ? 
+          (<i className='fas fa-times '></i>) : 
+          (<i className='fas fa-bars'></i>)}
+        </button> */}
     </nav>
   )
 }
